@@ -29,6 +29,8 @@ namespace Ejemplo03
             prom = calcularPromedio(n);
             mayor = calcularMayor(n);
             menor = calcularMenor(n);
+            canAprobados = calcularAprobados(n);
+            canDesaprobados = calcularDesaprobados(n);
             // Llamamos a la función void
             imprimirResultados(prom, mayor, menor, canAprobados, canDesaprobados);
         }
